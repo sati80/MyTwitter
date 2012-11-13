@@ -1,4 +1,6 @@
 MyTwitter::Application.routes.draw do
+  resources :users
+
   get 'rails/info/properties'
   # The priority is based upon order of creation:
   # first created -> highest priority.
